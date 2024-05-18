@@ -2,18 +2,6 @@
 
 -------
 
-# Line Animation Example
-
-This is an example of animating lines using custom syntax in Markdown.
-
-<canvas width="400" height="400" data-lines="[-0.5,-0.5,0.5,0.5][-0.5,0.5,0.5,-0.5][-0.8,0,0.8,0][0,-0.8,0,0.8]" data-animation="rotate" data-duration="2000"></canvas>
-
-# Line Drawing Example
-
-This is an example of rendering lines using HTML5 `<canvas>` within a Markdown file.
-
-<canvas id="lineCanvas" width="400" height="400"></canvas>
-
 ### <span style="color: #888;">MATH::</span>ROTOR
 A rotor efficiently represents a complete 3D rotation around the origin, using 2 components: a [vector](vectormath.xyz) and a [hangle](endesga.xyz/?page=hangle).
 
@@ -44,10 +32,6 @@ Whichever way, as long as the vector is first, hangle is second - to prevent mix
 1. **+**<span style="color: #F45;">X</span> Right, **+**<span style="color: #3C4;">Y</span> Forward, **+**<span style="color: #56F;">Z</span> Up
 2. **+Pitch** tilt-up, **+Roll** clockwise, **+Yaw** turn-left
 3. ***Intrinsic*** (Local): **Y**aw, then **P**itch, then **R**oll (ZXY)
-### CONSTRUCTORS:
-- `rotor( vector, hangle )`
-- `rotor( pitch, roll, yaw )`
-- `rotor( x, y, z, w )`
 
 -------
 ### <span style="color: #888;">ROTOR::</span>NEW
@@ -55,7 +39,13 @@ The most minimal way to make a new rotor is with a normalized axis, and a hangle
 ```glsl
 rotor new_rotor( vec3 norm_axis, float hangle )
 {
-  return rotor( norm_axis * sin( hangle ), cos( hangle ) );
+  return ( rotor )
+  {
+    norm_axis * sin( hangle ),
+    norm_axis * sin( hangle ),
+    norm_axis * sin( hangle ),
+    cos( hangle )
+  };
 }
 ```
 or if you only need to rotate on a specific axis, breaking it up into functions is slightly more efficient:
@@ -73,6 +63,17 @@ rotor roll_rotor( float hangle ) // Y AXIS
 rotor yaw_rotor( float hangle ) // Z AXIS
 {
   return rotor( 0., 0., sin( hangle ), cos( hangle ) );
+}
+```
+
+-------
+### <span style="color: #888;">ROTOR::</span>LOOK
+A simple and easy way to make a rotor that points in the direction from one point to another.
+The reason why the roll is separate is because rolling is in the direction of the forward-vector, and cannot be calculated easily - du
+```glsl
+rotor rotor_look( vec3 from, vec3 to, float roll_hangle )
+{
+  return new_rotor( normalize( to - from ), roll_hangle );
 }
 ```
 
@@ -128,10 +129,10 @@ rotor pitch_roll_yaw( float pitch, float roll, float yaw )
   (
     multiply_rotor
     (
-      new_rotor( vec3( 0, 0, 1 ), yaw ),
-      new_rotor( vec3( 1, 0, 0 ), pitch )
+      new_rotor( vec3( 0., 0., 1. ), yaw ),
+      new_rotor( vec3( 1., 0., 0. ), pitch )
     ),
-    new_rotor( vec3( 0, 1, 0 ), roll )
+    new_rotor( vec3( 0., 1., 0. ), roll )
   );
 }
 ```
