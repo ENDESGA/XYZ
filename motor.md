@@ -62,7 +62,7 @@ vec3 transform( vec3 v, motor m )
 		    motor( rotor( vec3( 0. ), 1. ), rotor( v, 0. ) )
 		),
         motor( rotor( -m.r.xyz, m.r.w ), vec4( m.d.xyz, -m.d.w ) )
-    ).d.xyz;
+    ).t.xyz; // return the vec3 part of the motor translation
 }
 ```
 
