@@ -1,0 +1,432 @@
+{
+  "main": {
+    "id": "c1678d06e056aa04",
+    "type": "split",
+    "children": [
+      {
+        "id": "99bf22b491ac90e9",
+        "type": "tabs",
+        "dimension": 63.47150259067358,
+        "children": [
+          {
+            "id": "53639e33ba67459f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intersect.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "intersect"
+            }
+          },
+          {
+            "id": "0e5ef3071459f4e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tau.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "tau"
+            }
+          },
+          {
+            "id": "4f6be3d68c73f15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "orientation.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "orientation"
+            }
+          },
+          {
+            "id": "1da17b155d46e99c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hangle.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "hangle"
+            }
+          },
+          {
+            "id": "4c2e8e28df99e1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vector.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "vector"
+            }
+          },
+          {
+            "id": "6c9ede1c9d9d36f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rotor.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "rotor"
+            }
+          },
+          {
+            "id": "aef11adc271cbfa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "motor.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "motor"
+            }
+          },
+          {
+            "id": "db4cd7dd32898b6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "observer.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "observer"
+            }
+          },
+          {
+            "id": "9a5b3be4ec5a0bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projection.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "projection"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "a4cf6954b7ef409c",
+        "type": "tabs",
+        "dimension": 36.52849740932643,
+        "children": [
+          {
+            "id": "866e73f98cdaff70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "main.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "main"
+            }
+          },
+          {
+            "id": "816e54f5bf69550d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tau.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tau"
+            }
+          },
+          {
+            "id": "c75fc9778c6a1817",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "orientation.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "orientation"
+            }
+          },
+          {
+            "id": "4c16678adb8dc7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hangle.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hangle"
+            }
+          },
+          {
+            "id": "147e3c38f624403d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vector"
+            }
+          },
+          {
+            "id": "5d13d9d63978164a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rotor.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "rotor"
+            }
+          },
+          {
+            "id": "ced130318ff40f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "motor.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "motor"
+            }
+          },
+          {
+            "id": "250f5de0d9bfff33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projection.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "projection"
+            }
+          },
+          {
+            "id": "dd2ee201a665af52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intersect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "intersect"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6a3480f8a19133a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8dff9a22642c1f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9967775970846474",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "428c6988f638bb8c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a86b0539e45abfc3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6aa972f515a8cec8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccff5730282411ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaca52483a9a3949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "motor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for motor"
+            }
+          },
+          {
+            "id": "471a60fa1705753c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "motor.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from motor"
+            }
+          },
+          {
+            "id": "9b06f216f6527a61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "571f6dc206adb005",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "motor.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of motor"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5d13d9d63978164a",
+  "lastOpenFiles": [
+    "tau.md",
+    "rotor.md",
+    "observer.md",
+    "projection.md",
+    "motor.md",
+    "vector.md",
+    "orientation.md",
+    "hangle.md",
+    "intersect.md",
+    "physics.md",
+    "collision.md",
+    "main.md",
+    "Untitled.md",
+    "hangle - Copy.md",
+    "hangle.svg",
+    "rotor.svg"
+  ]
+}
